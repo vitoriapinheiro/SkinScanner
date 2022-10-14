@@ -12,6 +12,8 @@
 		44C3658828F74E49007B9868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C3658728F74E49007B9868 /* Assets.xcassets */; };
 		44C3658B28F74E49007B9868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C3658A28F74E49007B9868 /* Preview Assets.xcassets */; };
 		44C3659228F76E73007B9868 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3659128F76E73007B9868 /* Onboarding.swift */; };
+		44C3659528F8285C007B9868 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 44C3659428F8285C007B9868 /* MobileNetV2.mlmodel */; };
+		44C3659728F82961007B9868 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3659628F82961007B9868 /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		44C3658728F74E49007B9868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C3658A28F74E49007B9868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44C3659128F76E73007B9868 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		44C3659428F8285C007B9868 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		44C3659628F82961007B9868 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,12 @@
 		44C3658228F74E47007B9868 /* SkinScanner */ = {
 			isa = PBXGroup;
 			children = (
+				44C3659428F8285C007B9868 /* MobileNetV2.mlmodel */,
 				44C3658328F74E47007B9868 /* SkinScannerApp.swift */,
 				44C3658728F74E49007B9868 /* Assets.xcassets */,
 				44C3659328F76EEF007B9868 /* Views */,
 				44C3658928F74E49007B9868 /* Preview Content */,
+				44C3659628F82961007B9868 /* UIImage+Extensions.swift */,
 			);
 			path = SkinScanner;
 			sourceTree = "<group>";
@@ -150,6 +156,8 @@
 			files = (
 				44C3659228F76E73007B9868 /* Onboarding.swift in Sources */,
 				44C3658628F74E47007B9868 /* ContentView.swift in Sources */,
+				44C3659728F82961007B9868 /* UIImage+Extensions.swift in Sources */,
+				44C3659528F8285C007B9868 /* MobileNetV2.mlmodel in Sources */,
 				44C3658428F74E47007B9868 /* SkinScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
