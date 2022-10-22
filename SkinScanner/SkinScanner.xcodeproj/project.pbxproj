@@ -7,24 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44492213290306CD00329C09 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44492212290306CD00329C09 /* AppButton.swift */; };
+		444922152903073A00329C09 /* AppNavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444922142903073A00329C09 /* AppNavigationButton.swift */; };
+		444922172903078200329C09 /* AppModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444922162903078200329C09 /* AppModal.swift */; };
+		44492219290307E800329C09 /* AppBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44492218290307E800329C09 /* AppBlur.swift */; };
+		4459F6682904785600AF666B /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4459F6672904785600AF666B /* PhotoPicker.swift */; };
 		44C3658428F74E47007B9868 /* SkinScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3658328F74E47007B9868 /* SkinScannerApp.swift */; };
 		44C3658628F74E47007B9868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3658528F74E47007B9868 /* ContentView.swift */; };
 		44C3658828F74E49007B9868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C3658728F74E49007B9868 /* Assets.xcassets */; };
 		44C3658B28F74E49007B9868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C3658A28F74E49007B9868 /* Preview Assets.xcassets */; };
 		44C3659228F76E73007B9868 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3659128F76E73007B9868 /* Onboarding.swift */; };
-		44C3659528F8285C007B9868 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 44C3659428F8285C007B9868 /* MobileNetV2.mlmodel */; };
 		44C3659728F82961007B9868 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3659628F82961007B9868 /* UIImage+Extensions.swift */; };
+		44C4847B290371DF009442ED /* SelectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4847A290371DF009442ED /* SelectImageView.swift */; };
+		44C4848029037B7A009442ED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4847F29037B7A009442ED /* HomeView.swift */; };
+		44C48482290382C5009442ED /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C48481290382C5009442ED /* HistoryView.swift */; };
+		44C4848529038B6B009442ED /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4848429038B6B009442ED /* Data.swift */; };
+		44C4848729044C10009442ED /* mobile_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 44C4848629044C10009442ED /* mobile_model.mlmodel */; };
+		44C4848929044C6E009442ED /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4848829044C6E009442ED /* ResultView.swift */; };
+		44C4848C2904695C009442ED /* MLMultiArray+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4848B2904695C009442ED /* MLMultiArray+UIImage.swift */; };
+		44C4848E29046FE2009442ED /* MultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4848D29046FE2009442ED /* MultiArray+Helpers.swift */; };
+		44C484902904714C009442ED /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 44C4848F2904714C009442ED /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44492212290306CD00329C09 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		444922142903073A00329C09 /* AppNavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationButton.swift; sourceTree = "<group>"; };
+		444922162903078200329C09 /* AppModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModal.swift; sourceTree = "<group>"; };
+		44492218290307E800329C09 /* AppBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBlur.swift; sourceTree = "<group>"; };
+		4459F6672904785600AF666B /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		44C3658028F74E47007B9868 /* SkinScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C3658328F74E47007B9868 /* SkinScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinScannerApp.swift; sourceTree = "<group>"; };
 		44C3658528F74E47007B9868 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44C3658728F74E49007B9868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C3658A28F74E49007B9868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44C3659128F76E73007B9868 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
-		44C3659428F8285C007B9868 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		44C3659628F82961007B9868 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		44C4847A290371DF009442ED /* SelectImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageView.swift; sourceTree = "<group>"; };
+		44C4847F29037B7A009442ED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		44C48481290382C5009442ED /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		44C4848429038B6B009442ED /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		44C4848629044C10009442ED /* mobile_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mobile_model.mlmodel; sourceTree = "<group>"; };
+		44C4848829044C6E009442ED /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		44C4848B2904695C009442ED /* MLMultiArray+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+UIImage.swift"; sourceTree = "<group>"; };
+		44C4848D29046FE2009442ED /* MultiArray+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MultiArray+Helpers.swift"; sourceTree = "<group>"; };
+		44C4848F2904714C009442ED /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +64,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44492211290306AB00329C09 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				44492218290307E800329C09 /* AppBlur.swift */,
+				44492212290306CD00329C09 /* AppButton.swift */,
+				444922142903073A00329C09 /* AppNavigationButton.swift */,
+				444922162903078200329C09 /* AppModal.swift */,
+				4459F6672904785600AF666B /* PhotoPicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		44C3657728F74E47007B9868 = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +95,15 @@
 		44C3658228F74E47007B9868 /* SkinScanner */ = {
 			isa = PBXGroup;
 			children = (
-				44C3659428F8285C007B9868 /* MobileNetV2.mlmodel */,
+				44C4848F2904714C009442ED /* MobileNetV2.mlmodel */,
+				44C4848629044C10009442ED /* mobile_model.mlmodel */,
+				44C4848329038B48009442ED /* Model */,
+				44492211290306AB00329C09 /* Components */,
 				44C3658328F74E47007B9868 /* SkinScannerApp.swift */,
 				44C3658728F74E49007B9868 /* Assets.xcassets */,
 				44C3659328F76EEF007B9868 /* Views */,
+				44C4848A290468CB009442ED /* Helpers */,
 				44C3658928F74E49007B9868 /* Preview Content */,
-				44C3659628F82961007B9868 /* UIImage+Extensions.swift */,
 			);
 			path = SkinScanner;
 			sourceTree = "<group>";
@@ -80,8 +121,30 @@
 			children = (
 				44C3658528F74E47007B9868 /* ContentView.swift */,
 				44C3659128F76E73007B9868 /* Onboarding.swift */,
+				44C4847A290371DF009442ED /* SelectImageView.swift */,
+				44C4847F29037B7A009442ED /* HomeView.swift */,
+				44C48481290382C5009442ED /* HistoryView.swift */,
+				44C4848829044C6E009442ED /* ResultView.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		44C4848329038B48009442ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44C4848429038B6B009442ED /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44C4848A290468CB009442ED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				44C3659628F82961007B9868 /* UIImage+Extensions.swift */,
+				44C4848B2904695C009442ED /* MLMultiArray+UIImage.swift */,
+				44C4848D29046FE2009442ED /* MultiArray+Helpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,10 +218,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C3659228F76E73007B9868 /* Onboarding.swift in Sources */,
+				44C48482290382C5009442ED /* HistoryView.swift in Sources */,
+				4459F6682904785600AF666B /* PhotoPicker.swift in Sources */,
 				44C3658628F74E47007B9868 /* ContentView.swift in Sources */,
 				44C3659728F82961007B9868 /* UIImage+Extensions.swift in Sources */,
-				44C3659528F8285C007B9868 /* MobileNetV2.mlmodel in Sources */,
+				44C484902904714C009442ED /* MobileNetV2.mlmodel in Sources */,
+				44492213290306CD00329C09 /* AppButton.swift in Sources */,
+				44C4848929044C6E009442ED /* ResultView.swift in Sources */,
+				44C4848029037B7A009442ED /* HomeView.swift in Sources */,
+				44C4848C2904695C009442ED /* MLMultiArray+UIImage.swift in Sources */,
+				44492219290307E800329C09 /* AppBlur.swift in Sources */,
+				44C4848529038B6B009442ED /* Data.swift in Sources */,
+				444922152903073A00329C09 /* AppNavigationButton.swift in Sources */,
+				44C4848E29046FE2009442ED /* MultiArray+Helpers.swift in Sources */,
+				44C4848729044C10009442ED /* mobile_model.mlmodel in Sources */,
 				44C3658428F74E47007B9868 /* SkinScannerApp.swift in Sources */,
+				44C4847B290371DF009442ED /* SelectImageView.swift in Sources */,
+				444922172903078200329C09 /* AppModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
