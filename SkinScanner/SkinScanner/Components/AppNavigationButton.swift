@@ -21,7 +21,7 @@ struct AppNavigationButton: View {
                     .bold()
                     .foregroundColor(isFill ? Color.white : Color.pink)
                     .frame(width: 300, height: 48)
-                    .background(isFill ? Color.pink : Color.white.opacity(0))
+                    .background(isFill ? Color.orange : Color.white.opacity(0))
                     .cornerRadius(16)
                     .padding(EdgeInsets(top: 0, leading: 16, bottom: 8, trailing: 16))
             }

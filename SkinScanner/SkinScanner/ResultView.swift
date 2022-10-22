@@ -33,6 +33,7 @@ struct ResultView: View {
     var body: some View{
         VStack{
             Image(photo)
+            
             Text(classificationLabel)
                 .bold()
             AppButton(

@@ -15,32 +15,29 @@ struct OnboardingView: View {
     var body: some View {
         TabView {
             PageView(
-                imageName: "leaf",
-                title: "Ipslum Lorem",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra turpis sem, ac dignissim sem faucibus elementum. Nam tincidunt bibendum luctus. Donec non gravida lorem.",
+                imageName: "bandage",
+                title: "Encontrou algo estranho na sua pele?",
+                description: "Estamos aqui para lhe ajudar a descobrir o que pode ser.",
                 showDismissButton: false,
                 showOnboarding: $showOnboarding
             )
-                .background(Color.cyan)
             PageView(
-                imageName: "bell",
-                title: "Ipslum Lorem",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra turpis sem, ac dignissim sem faucibus elementum. Nam tincidunt bibendum luctus. Donec non gravida lorem.",
+                imageName: "heart.text.square",
+                title: "Desenvolvemos um modelo que pode lhe alertar sobre uma possível doença",
+                description: "Basta tirar uma foto da área que você encontrou algo estranho",
                 showDismissButton: false,
                 showOnboarding: $showOnboarding
             )
-                .background(Color.red)
             PageView(
-                imageName: "camera",
-                title: "Ipslum Lorem",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra turpis sem, ac dignissim sem faucibus elementum. Nam tincidunt bibendum luctus. Donec non gravida lorem.",
+                imageName: "cross.case",
+                title: "Não deixe de consultar um médico(a)",
+                description: "Idependente do resultado, não deixe de consultar um especilista da área para entender melhor o seu caso. Nosso modelo ainda está em etapas iniciais de teste.",
                 showDismissButton: true,
                 showOnboarding: $showOnboarding
             )
-                .background(Color.blue)
+            
         }
-        .tabViewStyle(PageTabViewStyle())
-    }
+        .tabViewStyle(PageTabViewStyle())    }
 }
 
 struct PageView: View {
@@ -69,16 +66,13 @@ struct PageView: View {
                 .padding()
             
             if showDismissButton {
-                Button(action: {
-                    showOnboarding.toggle()
-                }, label: {
-                    Text("Iniciar")
-                        .bold()
-                        .foregroundColor(Color.white)
-                        .frame(width: 200, height: 50)
-                        .background(Color.green)
-                        .cornerRadius(8)
-                })
+                AppButton(
+                    title: "Vamos lá!",
+                    action: {showOnboarding.toggle()},
+                    enable: true,
+                    isFill: true,
+                    iconName: ""
+                )
                 .padding()
             }
         }
