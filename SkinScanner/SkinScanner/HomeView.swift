@@ -10,12 +10,15 @@ import SwiftUI
 import UIKit
 
 struct HomeView: View {
+    let coreDM: CoreDataManager
     let photo = "melanoma"
     
     @State private var isShowingPhotoPicker = false
     @State var classificationImage = UIImage(named: "melanoma")!
     
     @State private var classificationLabel: String = ""
+    
+    @State private var userCaseResult: String = ""
     
 //    let model = mobile_model()
     let model = MobileNetV2()
@@ -36,34 +39,47 @@ struct HomeView: View {
     }
     
     var body: some View{
-        ZStack{
-            Color.pink.edgesIgnoringSafeArea(.all)
-            VStack{
-                Image(uiImage: classificationImage)
-                    .resizable()
-                    .scaledToFit()
-                    .cornerRadius(16)
-                    .frame(width: 300, height: 300)
-                    .clipShape(Rectangle())
-                    .padding()
-                Text(classificationLabel)
-                    .bold()
-                AppButton(
-                    title: "Classificar",
-                    action: {
-                        self.performImageClassification()
-                    },
-                    enable: true,
-                    isFill: true,
-                    iconName: "scanner"
-                )
-                AppButton(
-                    title: "Escolher imagem",
-                    action: {isShowingPhotoPicker = true},
-                    enable: true,
-                    isFill: true,
-                    iconName: "photo.on.rectangle.angled"
-                )
+        ScrollView(.vertical) {
+            ZStack{
+                VStack{
+                    Image(uiImage: classificationImage)
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(16)
+                        .frame(width: 300, height: 300)
+                        .clipShape(Rectangle())
+                        .padding()
+                    Text(classificationLabel)
+                        .bold()
+                    TextField("Digite o resultado", text: $userCaseResult)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .padding()
+                    AppButton(
+                        title: "Salvar",
+                        action: {
+                            coreDM.saveCase(result: userCaseResult)
+                        },
+                        enable: true,
+                        isFill: true,
+                        iconName: "square.and.arrow.down"
+                    )
+                    AppButton(
+                        title: "Classificar",
+                        action: {
+                            self.performImageClassification()
+                        },
+                        enable: true,
+                        isFill: true,
+                        iconName: "scanner"
+                    )
+                    AppButton(
+                        title: "Escolher imagem",
+                        action: {isShowingPhotoPicker = true},
+                        enable: true,
+                        isFill: true,
+                        iconName: "photo.on.rectangle.angled"
+                    )
+                }
             }
         }
         .navigationTitle("Skin Scanner")

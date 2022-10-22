@@ -12,6 +12,8 @@
 		444922172903078200329C09 /* AppModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444922162903078200329C09 /* AppModal.swift */; };
 		44492219290307E800329C09 /* AppBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44492218290307E800329C09 /* AppBlur.swift */; };
 		4459F6682904785600AF666B /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4459F6672904785600AF666B /* PhotoPicker.swift */; };
+		4459F66B2904AC7200AF666B /* UserDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4459F6692904AC7200AF666B /* UserDataModel.xcdatamodeld */; };
+		4459F66E2904ADE400AF666B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4459F66D2904ADE400AF666B /* CoreDataManager.swift */; };
 		44C3658428F74E47007B9868 /* SkinScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3658328F74E47007B9868 /* SkinScannerApp.swift */; };
 		44C3658628F74E47007B9868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3658528F74E47007B9868 /* ContentView.swift */; };
 		44C3658828F74E49007B9868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C3658728F74E49007B9868 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 		444922162903078200329C09 /* AppModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModal.swift; sourceTree = "<group>"; };
 		44492218290307E800329C09 /* AppBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBlur.swift; sourceTree = "<group>"; };
 		4459F6672904785600AF666B /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		4459F66A2904AC7200AF666B /* UserDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserDataModel.xcdatamodel; sourceTree = "<group>"; };
+		4459F66D2904ADE400AF666B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		44C3658028F74E47007B9868 /* SkinScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C3658328F74E47007B9868 /* SkinScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinScannerApp.swift; sourceTree = "<group>"; };
 		44C3658528F74E47007B9868 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +80,14 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		4459F66C2904ADA600AF666B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4459F66D2904ADE400AF666B /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		44C3657728F74E47007B9868 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +107,7 @@
 		44C3658228F74E47007B9868 /* SkinScanner */ = {
 			isa = PBXGroup;
 			children = (
+				4459F66C2904ADA600AF666B /* Managers */,
 				44C4848F2904714C009442ED /* MobileNetV2.mlmodel */,
 				44C4848629044C10009442ED /* mobile_model.mlmodel */,
 				44C4848329038B48009442ED /* Model */,
@@ -132,6 +145,7 @@
 		44C4848329038B48009442ED /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4459F6692904AC7200AF666B /* UserDataModel.xcdatamodeld */,
 				44C4848429038B6B009442ED /* Data.swift */,
 			);
 			path = Model;
@@ -228,12 +242,14 @@
 				44C4848029037B7A009442ED /* HomeView.swift in Sources */,
 				44C4848C2904695C009442ED /* MLMultiArray+UIImage.swift in Sources */,
 				44492219290307E800329C09 /* AppBlur.swift in Sources */,
+				4459F66B2904AC7200AF666B /* UserDataModel.xcdatamodeld in Sources */,
 				44C4848529038B6B009442ED /* Data.swift in Sources */,
 				444922152903073A00329C09 /* AppNavigationButton.swift in Sources */,
 				44C4848E29046FE2009442ED /* MultiArray+Helpers.swift in Sources */,
 				44C4848729044C10009442ED /* mobile_model.mlmodel in Sources */,
 				44C3658428F74E47007B9868 /* SkinScannerApp.swift in Sources */,
 				44C4847B290371DF009442ED /* SelectImageView.swift in Sources */,
+				4459F66E2904ADE400AF666B /* CoreDataManager.swift in Sources */,
 				444922172903078200329C09 /* AppModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +451,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4459F6692904AC7200AF666B /* UserDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4459F66A2904AC7200AF666B /* UserDataModel.xcdatamodel */,
+			);
+			currentVersion = 4459F66A2904AC7200AF666B /* UserDataModel.xcdatamodel */;
+			path = UserDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 44C3657828F74E47007B9868 /* Project object */;
 }
