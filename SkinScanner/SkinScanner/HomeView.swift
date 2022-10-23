@@ -37,7 +37,6 @@ struct HomeView: View {
     
     var body: some View{
         ZStack{
-            Color.pink.edgesIgnoringSafeArea(.all)
             VStack{
                 Image(uiImage: classificationImage)
                     .resizable()
@@ -68,7 +67,7 @@ struct HomeView: View {
         }
         .navigationTitle("Skin Scanner")
         .toolbar{
-            NavigationLink(destination: ResultView(), label: {
+            NavigationLink(destination: HistoryView(), label: {
                 Image(systemName: "clock.arrow.circlepath")
                     .bold()
                     .foregroundColor(Color.orange)

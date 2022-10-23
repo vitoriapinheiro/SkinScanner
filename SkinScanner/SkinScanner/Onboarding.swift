@@ -29,6 +29,13 @@ struct OnboardingView: View {
                 showOnboarding: $showOnboarding
             )
             PageView(
+                imageName: "lock.fill",
+                title: "Não armazenamos os seus dados",
+                description: "As imagens que precisamos para dar o resultado só podem ser acessadas no seu dispositivo.",
+                showDismissButton: false,
+                showOnboarding: $showOnboarding
+            )
+            PageView(
                 imageName: "cross.case",
                 title: "Não deixe de consultar um médico(a)",
                 description: "Idependente do resultado, não deixe de consultar um especilista da área para entender melhor o seu caso. Nosso modelo ainda está em etapas iniciais de teste.",
