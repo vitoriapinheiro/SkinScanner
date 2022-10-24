@@ -15,8 +15,8 @@
 		444922152903073A00329C09 /* AppNavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444922142903073A00329C09 /* AppNavigationButton.swift */; };
 		444922172903078200329C09 /* AppModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444922162903078200329C09 /* AppModal.swift */; };
 		44492219290307E800329C09 /* AppBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44492218290307E800329C09 /* AppBlur.swift */; };
-		444DAACF2906BE8400168A45 /* Helper.py in Resources */ = {isa = PBXBuildFile; fileRef = 444DAACE2906BE8400168A45 /* Helper.py */; };
 		4459F6682904785600AF666B /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4459F6672904785600AF666B /* PhotoPicker.swift */; };
+		44C311C62906C15000471C23 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 44C311C52906C15000471C23 /* PythonKit */; };
 		44C3658428F74E47007B9868 /* SkinScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3658328F74E47007B9868 /* SkinScannerApp.swift */; };
 		44C3658628F74E47007B9868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3658528F74E47007B9868 /* ContentView.swift */; };
 		44C3658828F74E49007B9868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C3658728F74E49007B9868 /* Assets.xcassets */; };
@@ -43,7 +43,6 @@
 		444922142903073A00329C09 /* AppNavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationButton.swift; sourceTree = "<group>"; };
 		444922162903078200329C09 /* AppModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModal.swift; sourceTree = "<group>"; };
 		44492218290307E800329C09 /* AppBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBlur.swift; sourceTree = "<group>"; };
-		444DAACE2906BE8400168A45 /* Helper.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Helper.py; sourceTree = "<group>"; };
 		4459F6672904785600AF666B /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		44C3658028F74E47007B9868 /* SkinScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C3658328F74E47007B9868 /* SkinScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinScannerApp.swift; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C311C62906C15000471C23 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +105,6 @@
 		44C3658228F74E47007B9868 /* SkinScanner */ = {
 			isa = PBXGroup;
 			children = (
-				444DAACE2906BE8400168A45 /* Helper.py */,
 				44C4848F2904714C009442ED /* MobileNetV2.mlmodel */,
 				4438F00A2905D21200DF4613 /* TestW20.mlpackage */,
 				44C4848629044C10009442ED /* mobile_model.mlmodel */,
@@ -178,6 +177,9 @@
 			dependencies = (
 			);
 			name = SkinScanner;
+			packageProductDependencies = (
+				44C311C52906C15000471C23 /* PythonKit */,
+			);
 			productName = SkinScanner;
 			productReference = 44C3658028F74E47007B9868 /* SkinScanner.app */;
 			productType = "com.apple.product-type.application";
@@ -206,6 +208,9 @@
 				Base,
 			);
 			mainGroup = 44C3657728F74E47007B9868;
+			packageReferences = (
+				44C311C42906C15000471C23 /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
 			productRefGroup = 44C3658128F74E47007B9868 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -220,7 +225,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				444DAACF2906BE8400168A45 /* Helper.py in Resources */,
 				44C3658B28F74E49007B9868 /* Preview Assets.xcassets in Resources */,
 				44C3658828F74E49007B9868 /* Assets.xcassets in Resources */,
 			);
@@ -455,6 +459,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44C311C42906C15000471C23 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44C311C52906C15000471C23 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C311C42906C15000471C23 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 44C3657828F74E47007B9868 /* Project object */;
 }

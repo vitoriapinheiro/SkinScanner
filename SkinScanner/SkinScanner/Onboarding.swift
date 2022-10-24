@@ -17,20 +17,20 @@ struct OnboardingView: View {
             PageView(
                 imageName: "itch",
                 title: "Encontrou algo estranho na sua pele?",
-                description: "Estamos aqui para lhe ajudar a descobrir o que pode ser.",
+                description: "Estamos aqui para te ajudar! Desenvolvemos um modelo que pode te alertar sobre uma possível doença.",
                 showDismissButton: false,
                 showOnboarding: $showOnboarding
             )
             PageView(
                 imageName: "skin-allergy",
-                title: "Desenvolvemos um modelo que pode lhe alertar sobre uma possível doença",
-                description: "Basta tirar uma foto da área que você encontrou algo estranho",
+                title: "Basta tirar uma foto da sua pele",
+                description: "Garanta que a foto tenha uma boa iluminação e capture bem a área de interesse",
                 showDismissButton: false,
                 showOnboarding: $showOnboarding
             )
             PageView(
-                imageName: "skin-disease",
-                title: "Não armazenamos os seus dados",
+                imageName: "shield",
+                title: "Fique tranquilo! Não armazenamos os seus dados",
                 description: "As imagens que precisamos para dar o resultado só podem ser acessadas no seu dispositivo.",
                 showDismissButton: false,
                 showOnboarding: $showOnboarding
@@ -38,7 +38,7 @@ struct OnboardingView: View {
             PageView(
                 imageName: "irritation",
                 title: "Não deixe de consultar um médico(a)",
-                description: "Idependente do resultado, não deixe de consultar um especilista da área para entender melhor o seu caso. Nosso modelo ainda está em etapas iniciais de teste.",
+                description: "Independentemente do resultado, não deixe de consultar um especialista da área para entender melhor o seu caso. Nosso modelo não substitui um exame clínico.",
                 showDismissButton: true,
                 showOnboarding: $showOnboarding
             )
@@ -59,7 +59,7 @@ struct PageView: View {
             Image(imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 150, height: 150)
+                .frame(width: 250, height: 250)
                 .padding()
             
             Text(title)
