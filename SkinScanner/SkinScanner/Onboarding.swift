@@ -15,28 +15,28 @@ struct OnboardingView: View {
     var body: some View {
         TabView {
             PageView(
-                imageName: "bandage",
+                imageName: "itch",
                 title: "Encontrou algo estranho na sua pele?",
                 description: "Estamos aqui para lhe ajudar a descobrir o que pode ser.",
                 showDismissButton: false,
                 showOnboarding: $showOnboarding
             )
             PageView(
-                imageName: "heart.text.square",
+                imageName: "skin-allergy",
                 title: "Desenvolvemos um modelo que pode lhe alertar sobre uma possível doença",
                 description: "Basta tirar uma foto da área que você encontrou algo estranho",
                 showDismissButton: false,
                 showOnboarding: $showOnboarding
             )
             PageView(
-                imageName: "lock.fill",
+                imageName: "skin-disease",
                 title: "Não armazenamos os seus dados",
                 description: "As imagens que precisamos para dar o resultado só podem ser acessadas no seu dispositivo.",
                 showDismissButton: false,
                 showOnboarding: $showOnboarding
             )
             PageView(
-                imageName: "cross.case",
+                imageName: "irritation",
                 title: "Não deixe de consultar um médico(a)",
                 description: "Idependente do resultado, não deixe de consultar um especilista da área para entender melhor o seu caso. Nosso modelo ainda está em etapas iniciais de teste.",
                 showDismissButton: true,
@@ -56,7 +56,7 @@ struct PageView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: imageName)
+            Image(imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150, height: 150)
