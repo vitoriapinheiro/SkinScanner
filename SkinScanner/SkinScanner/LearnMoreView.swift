@@ -32,7 +32,7 @@ struct LearnMoreView: View {
                             .font(.subheadline)
                             .foregroundColor(.secondary)
                             .lineLimit(4)
-                            .minimumScaleFactor(0.3)
+                            .minimumScaleFactor(0.8)
                     }
                 }
             }
