@@ -1,0 +1,7 @@
+input_shape: !!python/tuple
+- 3
+- 256
+- 256
+learning_rate: 0.0003
+num_classes: 9
+transfer: false
