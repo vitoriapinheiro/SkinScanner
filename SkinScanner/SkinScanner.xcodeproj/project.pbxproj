@@ -7,99 +7,178 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44E9805528F3ABCC006616CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9805428F3ABCC006616CE /* AppDelegate.swift */; };
-		44E9805728F3ABCC006616CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9805628F3ABCC006616CE /* SceneDelegate.swift */; };
-		44E9805928F3ABCC006616CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9805828F3ABCC006616CE /* ViewController.swift */; };
-		44E9805E28F3ABCE006616CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E9805D28F3ABCE006616CE /* Assets.xcassets */; };
-		44E9806128F3ABCE006616CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E9805F28F3ABCE006616CE /* LaunchScreen.storyboard */; };
+		4438F00B2905D21200DF4613 /* TestW20.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 4438F00A2905D21200DF4613 /* TestW20.mlpackage */; };
+		4438F00F2905D5BB00DF4613 /* new_mobile_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4438F00E2905D5BB00DF4613 /* new_mobile_model.mlmodel */; };
+		4438F0112906890800DF4613 /* LearnMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4438F0102906890800DF4613 /* LearnMoreView.swift */; };
+		44492213290306CD00329C09 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44492212290306CD00329C09 /* AppButton.swift */; };
+		444922152903073A00329C09 /* AppNavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444922142903073A00329C09 /* AppNavigationButton.swift */; };
+		444922172903078200329C09 /* AppModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444922162903078200329C09 /* AppModal.swift */; };
+		44492219290307E800329C09 /* AppBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44492218290307E800329C09 /* AppBlur.swift */; };
+		4459F6682904785600AF666B /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4459F6672904785600AF666B /* PhotoPicker.swift */; };
+		44C311C62906C15000471C23 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 44C311C52906C15000471C23 /* PythonKit */; };
+		44C3658428F74E47007B9868 /* SkinScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3658328F74E47007B9868 /* SkinScannerApp.swift */; };
+		44C3658628F74E47007B9868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3658528F74E47007B9868 /* ContentView.swift */; };
+		44C3658828F74E49007B9868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C3658728F74E49007B9868 /* Assets.xcassets */; };
+		44C3658B28F74E49007B9868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C3658A28F74E49007B9868 /* Preview Assets.xcassets */; };
+		44C3659228F76E73007B9868 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3659128F76E73007B9868 /* Onboarding.swift */; };
+		44C3659728F82961007B9868 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3659628F82961007B9868 /* UIImage+Extensions.swift */; };
+		44C4848029037B7A009442ED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4847F29037B7A009442ED /* HomeView.swift */; };
+		44C4848529038B6B009442ED /* Disease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4848429038B6B009442ED /* Disease.swift */; };
+		44E3C2C429075BE10010EE23 /* DiseaseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3C2C329075BE10010EE23 /* DiseaseDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44E9805128F3ABCC006616CE /* SkinScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		44E9805428F3ABCC006616CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44E9805628F3ABCC006616CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44E9805828F3ABCC006616CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		44E9805D28F3ABCE006616CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		44E9806028F3ABCE006616CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		44E9806228F3ABCE006616CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4438F00A2905D21200DF4613 /* TestW20.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = TestW20.mlpackage; sourceTree = "<group>"; };
+		4438F00E2905D5BB00DF4613 /* new_mobile_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = new_mobile_model.mlmodel; sourceTree = "<group>"; };
+		4438F0102906890800DF4613 /* LearnMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreView.swift; sourceTree = "<group>"; };
+		44492212290306CD00329C09 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		444922142903073A00329C09 /* AppNavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationButton.swift; sourceTree = "<group>"; };
+		444922162903078200329C09 /* AppModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModal.swift; sourceTree = "<group>"; };
+		44492218290307E800329C09 /* AppBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBlur.swift; sourceTree = "<group>"; };
+		4459F6672904785600AF666B /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		44C3658028F74E47007B9868 /* SkinScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C3658328F74E47007B9868 /* SkinScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinScannerApp.swift; sourceTree = "<group>"; };
+		44C3658528F74E47007B9868 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44C3658728F74E49007B9868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44C3658A28F74E49007B9868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44C3659128F76E73007B9868 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		44C3659628F82961007B9868 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		44C4847F29037B7A009442ED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		44C4848429038B6B009442ED /* Disease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease.swift; sourceTree = "<group>"; };
+		44E3C2C329075BE10010EE23 /* DiseaseDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiseaseDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		44E9804E28F3ABCC006616CE /* Frameworks */ = {
+		44C3657D28F74E47007B9868 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C311C62906C15000471C23 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44E9804828F3ABCC006616CE = {
+		44492211290306AB00329C09 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				44E9805328F3ABCC006616CE /* SkinScanner */,
-				44E9805228F3ABCC006616CE /* Products */,
+				44492218290307E800329C09 /* AppBlur.swift */,
+				44492212290306CD00329C09 /* AppButton.swift */,
+				444922142903073A00329C09 /* AppNavigationButton.swift */,
+				444922162903078200329C09 /* AppModal.swift */,
+				4459F6672904785600AF666B /* PhotoPicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		44C3657728F74E47007B9868 = {
+			isa = PBXGroup;
+			children = (
+				44C3658228F74E47007B9868 /* SkinScanner */,
+				44C3658128F74E47007B9868 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		44E9805228F3ABCC006616CE /* Products */ = {
+		44C3658128F74E47007B9868 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44E9805128F3ABCC006616CE /* SkinScanner.app */,
+				44C3658028F74E47007B9868 /* SkinScanner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44E9805328F3ABCC006616CE /* SkinScanner */ = {
+		44C3658228F74E47007B9868 /* SkinScanner */ = {
 			isa = PBXGroup;
 			children = (
-				44E9805428F3ABCC006616CE /* AppDelegate.swift */,
-				44E9805628F3ABCC006616CE /* SceneDelegate.swift */,
-				44E9805828F3ABCC006616CE /* ViewController.swift */,
-				44E9805D28F3ABCE006616CE /* Assets.xcassets */,
-				44E9805F28F3ABCE006616CE /* LaunchScreen.storyboard */,
-				44E9806228F3ABCE006616CE /* Info.plist */,
+				4438F00A2905D21200DF4613 /* TestW20.mlpackage */,
+				4438F00E2905D5BB00DF4613 /* new_mobile_model.mlmodel */,
+				44C4848329038B48009442ED /* Model */,
+				44492211290306AB00329C09 /* Components */,
+				44C3658328F74E47007B9868 /* SkinScannerApp.swift */,
+				44C3658728F74E49007B9868 /* Assets.xcassets */,
+				44C3659328F76EEF007B9868 /* Views */,
+				44C4848A290468CB009442ED /* Helpers */,
+				44C3658928F74E49007B9868 /* Preview Content */,
 			);
 			path = SkinScanner;
+			sourceTree = "<group>";
+		};
+		44C3658928F74E49007B9868 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44C3658A28F74E49007B9868 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44C3659328F76EEF007B9868 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44E3C2C329075BE10010EE23 /* DiseaseDetailView.swift */,
+				44C3658528F74E47007B9868 /* ContentView.swift */,
+				44C3659128F76E73007B9868 /* Onboarding.swift */,
+				44C4847F29037B7A009442ED /* HomeView.swift */,
+				4438F0102906890800DF4613 /* LearnMoreView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		44C4848329038B48009442ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44C4848429038B6B009442ED /* Disease.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44C4848A290468CB009442ED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				44C3659628F82961007B9868 /* UIImage+Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44E9805028F3ABCC006616CE /* SkinScanner */ = {
+		44C3657F28F74E47007B9868 /* SkinScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44E9806528F3ABCE006616CE /* Build configuration list for PBXNativeTarget "SkinScanner" */;
+			buildConfigurationList = 44C3658E28F74E49007B9868 /* Build configuration list for PBXNativeTarget "SkinScanner" */;
 			buildPhases = (
-				44E9804D28F3ABCC006616CE /* Sources */,
-				44E9804E28F3ABCC006616CE /* Frameworks */,
-				44E9804F28F3ABCC006616CE /* Resources */,
+				44C3657C28F74E47007B9868 /* Sources */,
+				44C3657D28F74E47007B9868 /* Frameworks */,
+				44C3657E28F74E47007B9868 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SkinScanner;
+			packageProductDependencies = (
+				44C311C52906C15000471C23 /* PythonKit */,
+			);
 			productName = SkinScanner;
-			productReference = 44E9805128F3ABCC006616CE /* SkinScanner.app */;
+			productReference = 44C3658028F74E47007B9868 /* SkinScanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		44E9804928F3ABCC006616CE /* Project object */ = {
+		44C3657828F74E47007B9868 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					44E9805028F3ABCC006616CE = {
+					44C3657F28F74E47007B9868 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 44E9804C28F3ABCC006616CE /* Build configuration list for PBXProject "SkinScanner" */;
+			buildConfigurationList = 44C3657B28F74E47007B9868 /* Build configuration list for PBXProject "SkinScanner" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +186,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 44E9804828F3ABCC006616CE;
-			productRefGroup = 44E9805228F3ABCC006616CE /* Products */;
+			mainGroup = 44C3657728F74E47007B9868;
+			packageReferences = (
+				44C311C42906C15000471C23 /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
+			productRefGroup = 44C3658128F74E47007B9868 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44E9805028F3ABCC006616CE /* SkinScanner */,
+				44C3657F28F74E47007B9868 /* SkinScanner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		44E9804F28F3ABCC006616CE /* Resources */ = {
+		44C3657E28F74E47007B9868 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44E9806128F3ABCE006616CE /* LaunchScreen.storyboard in Resources */,
-				44E9805E28F3ABCE006616CE /* Assets.xcassets in Resources */,
+				44C3658B28F74E49007B9868 /* Preview Assets.xcassets in Resources */,
+				44C3658828F74E49007B9868 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		44E9804D28F3ABCC006616CE /* Sources */ = {
+		44C3657C28F74E47007B9868 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44E9805928F3ABCC006616CE /* ViewController.swift in Sources */,
-				44E9805528F3ABCC006616CE /* AppDelegate.swift in Sources */,
-				44E9805728F3ABCC006616CE /* SceneDelegate.swift in Sources */,
+				44C3659228F76E73007B9868 /* Onboarding.swift in Sources */,
+				4438F00F2905D5BB00DF4613 /* new_mobile_model.mlmodel in Sources */,
+				4438F0112906890800DF4613 /* LearnMoreView.swift in Sources */,
+				4438F00B2905D21200DF4613 /* TestW20.mlpackage in Sources */,
+				44E3C2C429075BE10010EE23 /* DiseaseDetailView.swift in Sources */,
+				4459F6682904785600AF666B /* PhotoPicker.swift in Sources */,
+				44C3658628F74E47007B9868 /* ContentView.swift in Sources */,
+				44C3659728F82961007B9868 /* UIImage+Extensions.swift in Sources */,
+				44492213290306CD00329C09 /* AppButton.swift in Sources */,
+				44C4848029037B7A009442ED /* HomeView.swift in Sources */,
+				44492219290307E800329C09 /* AppBlur.swift in Sources */,
+				44C4848529038B6B009442ED /* Disease.swift in Sources */,
+				444922152903073A00329C09 /* AppNavigationButton.swift in Sources */,
+				44C3658428F74E47007B9868 /* SkinScannerApp.swift in Sources */,
+				444922172903078200329C09 /* AppModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		44E9805F28F3ABCE006616CE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44E9806028F3ABCE006616CE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		44E9806328F3ABCE006616CE /* Debug */ = {
+		44C3658C28F74E49007B9868 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		44E9806428F3ABCE006616CE /* Release */ = {
+		44C3658D28F74E49007B9868 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,22 +351,22 @@
 			};
 			name = Release;
 		};
-		44E9806628F3ABCE006616CE /* Debug */ = {
+		44C3658F28F74E49007B9868 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkinScanner/Preview Content\"";
 				DEVELOPMENT_TEAM = PST723S8CA;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SkinScanner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Skin Scanner";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,22 +380,22 @@
 			};
 			name = Debug;
 		};
-		44E9806728F3ABCE006616CE /* Release */ = {
+		44C3659028F74E49007B9868 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkinScanner/Preview Content\"";
 				DEVELOPMENT_TEAM = PST723S8CA;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SkinScanner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Skin Scanner";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,25 +412,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44E9804C28F3ABCC006616CE /* Build configuration list for PBXProject "SkinScanner" */ = {
+		44C3657B28F74E47007B9868 /* Build configuration list for PBXProject "SkinScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44E9806328F3ABCE006616CE /* Debug */,
-				44E9806428F3ABCE006616CE /* Release */,
+				44C3658C28F74E49007B9868 /* Debug */,
+				44C3658D28F74E49007B9868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44E9806528F3ABCE006616CE /* Build configuration list for PBXNativeTarget "SkinScanner" */ = {
+		44C3658E28F74E49007B9868 /* Build configuration list for PBXNativeTarget "SkinScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44E9806628F3ABCE006616CE /* Debug */,
-				44E9806728F3ABCE006616CE /* Release */,
+				44C3658F28F74E49007B9868 /* Debug */,
+				44C3659028F74E49007B9868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44C311C42906C15000471C23 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44C311C52906C15000471C23 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C311C42906C15000471C23 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 44E9804928F3ABCC006616CE /* Project object */;
+	rootObject = 44C3657828F74E47007B9868 /* Project object */;
 }
