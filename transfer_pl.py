@@ -99,7 +99,7 @@ class ShuffleNetModel(pl.LightningModule):
         self.criterion = nn.CrossEntropyLoss()
         self.accuracy = Accuracy()
 
-    def forward(self, x):
+    def forward(self, x): # mobilenet forward function
         out = self.feature_extractor(x)
         return self.classifier(out)
 
