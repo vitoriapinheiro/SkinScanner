@@ -195,6 +195,7 @@ class MobileNetModel(pl.LightningModule):
         loss = self.criterion(out, labels)
         acc = self.accuracy(out, labels)
 
+        # logs will be displayed in Tensorboard
         self.log("mobile/train/loss", loss)        
         self.log("mobile/train/acc", acc)
 
