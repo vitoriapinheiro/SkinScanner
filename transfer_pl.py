@@ -212,6 +212,8 @@ class MobileNetModel(pl.LightningModule):
 
         return {"loss": loss, "outputs": out, "labels": labels}
 
+    # Would be nice to add validation steps for model evaluation
+
     def configure_optimizers(self):
         return torch.optim.Adam(self.parameters(), lr=self.learning_rate)
 
